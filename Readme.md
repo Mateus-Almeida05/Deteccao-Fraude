@@ -23,7 +23,7 @@ Nesta fase, foram lidos e explorados os datasets de treino, teste, clientes e te
 
 A etapa seguinte foi dedicada ao feature engineering, criando variáveis que aumentam a capacidade preditiva do modelo. Foram geradas features temporais (hora, dia da semana, fim de semana, período do dia), cálculos de distância entre clientes e terminais via fórmula de Haversine, além de variáveis agregadas em janelas de tempo (somas, médias, medianas, mínimos, máximos e quantidades de transações em 1h, 24h, 7 dias etc.). Também foram incluídas flags de risco, como transações noturnas e consecutivas no mesmo terminal. Esse processo resultou em uma base enriquecida, estruturada para melhor capturar padrões de fraude.
 
-### **3\. Modelagem Preditiva**
+### **3\. 3\. Modelagem Preditiva**
 
 Com os dados preparados, foram construídos pipelines de pré-processamento que incluíram imputação de valores ausentes, codificação de variáveis categóricas via *Target Encoding* e padronização das variáveis numéricas com *StandardScaler*. Em seguida, diferentes algoritmos foram testados, incluindo Árvore de Decisão, Regressão Logística, Random Forest, Gradient Boosting, XGBoost e LightGBM. As avaliações consideraram métricas como acurácia, precisão, recall, F1-score, AUC, Gini e KS.
 
