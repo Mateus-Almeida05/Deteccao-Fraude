@@ -52,9 +52,9 @@ The XGBoost model, after hyperparameter tuning with Optuna, presented the best b
 
 **5\. Technologies Used**
 
-**Language**: Python
+* Language: Python
 
-**Libraries**:
+* Libraries:
 
   *  pandas, numpy – data manipulation and analysis
 
