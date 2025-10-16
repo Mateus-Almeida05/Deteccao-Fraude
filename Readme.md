@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/871c602e-d0fe-4573-a87b-fddab66e65e4)
+
 # **Detecção de Fraude**
 
 # **1\. Introdução**
